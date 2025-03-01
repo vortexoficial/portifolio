@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "indesignleandro@gmail.com"; // Seu e-mail
+    $to = "contatovortexcomunicao@gmail.com"; // Seu e-mail
     $subject = htmlspecialchars($_POST["subject"]);
     $name = htmlspecialchars($_POST["name"]);
     $email = htmlspecialchars($_POST["email"]);
